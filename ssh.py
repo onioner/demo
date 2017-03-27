@@ -31,7 +31,6 @@ def main():
 	for host in hostlist:
 		try:
 			conn = ssh(host,'test','test','22')
-	#		conn = ssh(host,'root','hunantv!^*cobbler','22')
 			re = conn.ssh_cmd(d)
 			print '\033[1;32;40m'
 			print '----------------'
