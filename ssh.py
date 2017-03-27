@@ -3,6 +3,7 @@
 import paramiko
 import sys
 
+#test
 class ssh:
 	def __init__(self,host,username,password,port):
 		self.s=paramiko.SSHClient()
